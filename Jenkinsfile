@@ -25,12 +25,6 @@ pipeline {
                 
             }
         }
-         stage('Security Scan') {
-            steps {
-                echo 'Running security scans...'
-            }
-        }
-        
     }
      post {
         success {
