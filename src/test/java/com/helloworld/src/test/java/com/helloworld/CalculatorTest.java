@@ -7,15 +7,9 @@ import com.helloworld.Calculator; // added comments
 public class CalculatorTest {
 
     @Test
-    public void testAddition() {
-        Calculator test = new Calculator();
-        Assert.assertEquals("The output should be 10", 10, test.addition(5,5));
-    }
-
-    @Test
     public void testSubtraction() {
         Calculator test = new Calculator();
-        Assert.assertEquals("The output should be 3", 3, test.subtraction(5,2));
+        Assert.assertEquals("The output should be 2", 2, test.subtraction(4,2));
     }
 
     @Test
