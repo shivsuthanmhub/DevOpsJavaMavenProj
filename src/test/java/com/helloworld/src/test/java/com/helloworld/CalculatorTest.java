@@ -9,7 +9,7 @@ public class CalculatorTest {
     @Test
     public void testSubtraction() {
         Calculator test = new Calculator();
-        Assert.assertEquals("The output should be 2", 2, test.subtraction(6,4));
+        Assert.assertEquals("The output should be 2", 2, test.subtraction(6,5));
     }
 
     @Test
